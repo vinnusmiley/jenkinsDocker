@@ -1,0 +1,5 @@
+vi /lib/systemd/system/docker.service
+ExecStart=/usr/bin/docker daemon -H tcp://0.0.0.0:2375 -H unix:///var/run/docker.sock
+systemctl daemon-reload
+systemctl docker restart
+watch -n 1 docker ps
