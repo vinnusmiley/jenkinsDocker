@@ -1,1 +1,615 @@
 
+history | cut -c 8-
+exit
+docker info
+sudo usermod -G docker vinnu
+exit
+notepad plus plus
+docker info
+cat /etc/group | grep -i docker
+cd 
+docker info
+sudo docker info
+docker search helloworld
+sudo docker search helloworld
+sudo usermod -aG docker vinnu
+docker search helloworld
+docker images
+sudo docker images
+sudo docker ps
+sudo -i
+su -i
+sudo -i
+sudo apt-get install tree
+sudo -i
+exit
+history
+history | cut -c 8-
+sudo -i
+sudo -i
+sudo shutdown -P +30
+docker swarm init 100.27.8.50
+docker swarm init --help
+docker --version
+docker info | grep -i swarm
+docker swarm --help
+docker swarm init --advertise-aadr 100.27.8.50
+docker swarm init --advertise-addr 100.27.8.50
+ansible --version
+sudo apt update
+sudo apt install software-properties-common
+sudo apt-add-repository --yes --update ppa:ansible/ansible
+sudo apt install ansible
+make deb
+apt-get update
+sudo apt update
+adduser ansible
+sudo adduser ansible
+sudo -i
+cd /home/vinnu/Music/
+ls
+deluser ansible
+sudo deluser ansible
+adduser ansible
+sudo adduser ansible
+vikki
+sudo -i
+sudo apt-get update -y
+sudo -i
+docker run -it --name myansible ansible
+sudo docker run -it --name myansible ansible
+docker run -it --name myalpine alpine
+docker ps
+docker stop 9efa909dc2da
+docker stop a8e16f9e130d
+docker ps
+docker images
+docker search ruby
+sudo docker run -it --name myruby ruby
+chmod 400 MyTata-Key.pem
+ssh -i "MyTata-Key.pem" @ec2-3-224-147-243.compute-1.amazonaws.com
+cd /home/ansible/
+ls
+cd
+cd /home/vinnu/Music/
+ls
+ssh -i "MyTata-Key.pem" ec2-user@ec2-3-224-147-243.compute-1.amazonaws.com
+su - ansible
+docker images
+docker --version
+docker images
+git pull apache2
+docker  pull apache2
+docker login
+docker  pull apache2
+docker  pull packer
+docker pull hashicorp/packer
+docker pull halternz/jfrog-cli-go
+docker pull sonatype/nexus3
+docker images
+docker ps
+docker rm 9efa909dc2da
+docker rm -f  9efa909dc2da
+docker rm -f  a8e16f9e130d
+docker run -it --name myub ubuntu 
+docker run -it --name mycent centos
+docker ps
+docker attach 0a19bccb41de
+docker rm -f bash: passwd: command not found
+exit
+docker ps
+docker ps -a
+docker rm 0a19bccb41de
+docker run -it --name oscent centos
+docker attach 51d306c6e706
+docker rm 51d306c6e706
+docker rm -f 51d306c6e706
+su - ansible
+su - ansible
+docker run -it ubn1 ubuntu
+docker run -it --name ubn1 ubuntu
+docker run -it --name ubn2 ubuntu
+docker rm -f ubn1
+docker rm -f ubn2
+docker ps -aq
+docker rm | `ps -aq`
+docker rm $(docker ps -a -q)
+docker ps -a -q)
+docker ps -a -q
+docker rm -f 20dbedb61caa
+docker ps -a -q
+docker ps
+docker ps -aq
+docker images
+docker ps
+docker exec -it cat /etc/passwd
+docker exec -it cat /etc/passwd ubn1
+docker exec -it  ubn1 cat /etc/passwd ubn1
+docker run -it --name ubn1 ubuntu
+docker inspect ubn1
+su - ansible
+docker tag ubn1 vinnuvikki/AnsibleNode1.0
+docker tag ubn1 vinnuvikki/ansiblenode1.0
+docker commit -m "ansiblenode1" -a "vinnu@gmail" ubn1 ansiblenode:1.0
+docker push vinnuvikki/ansiblenode1.0
+docker images
+docker push vinnuvikki/ansiblenode
+docker push vinnuvikki/ansiblenode:1.0
+docker push vinnuvikki/ansiblenode1.0
+docker push vinnuvikki/ansiblenode 1.0
+docker push vinnuvikki/ansiblenode:1.0
+docker tag ubn1 vinnuvikki/AnsibleNode1.0
+docker tag ubn1 vinnuvikki/ansiblenode1.0
+docker images
+docker tag ansiblenode:1.0 vinnuvikki/ansiblenode:1.1
+docker push vinnuvikki/ansiblenode:1.1
+docker ps
+docker run -it --name ubn2 ansiblenode:1.0
+docker inspect ubn2
+docker ps
+su - ansible
+exit
+sudo -i
+su - ansible
+docker run -it --name rhel richxsl/rhel7
+docker run -it --name rhel richxsl/rhel7:latest
+docker run -it richxsl/rhel7
+docker run --help
+docker run -i -t richxsl/rhel7
+rmi -f richxsl/rhel7
+docker rmi -f richxsl/rhel7
+docker pull amazonlinux
+docker run -it --name ami amazonlinux
+docker rmi -f amazonlinux:latest 
+exit
+su - ansible
+docker images
+docker attach ubn1
+docker pull sreeharshav/rollingupdate
+docker pull sreeharshav/ubuntu16
+docker login
+sudo docker pull sreeharshav/ubuntu16
+docker pull sreeharshav/jenkins-slavessh
+docker pull sreeharshav/jenkins-slavessh:v1
+docker pull sreeharshav/rollingupdate:v3
+docker pull sreeharshav/centos7:withssh2.0_V1
+docker login
+docker pull sreeharshav/centos7:withssh2.0_V1
+docker pull sreeharshav/stress:256copy
+docker pull sreeharshav/pipelinetestprod:1
+docker pull sreeharshav/healthcheck:v1
+docker pull sreeharshav/devopsb11:10
+docker pull sreeharshav/featurewebapp3:2
+docker images
+docker pull sreeharshav/pipelinetesting:4
+docker pull sreeharshav/centos7:withssh2.0_V1
+docker pull sreeharshav/swarmvisualizer:1.0
+docker images
+su - ansible
+docker networks
+docker networks ls
+docker ps
+docker ps -q
+docker ps -aq
+docker ps -i
+docker ps -a
+docker pull sreeharshav/puppetagent:V2
+docker pull sreeharshav/puppetmaster:nocasetupV2
+docker images
+cd /home/vinnu/Music/
+ls
+git clone https://github.com/dockersamples/example-voting-app.git
+docker pull chef/chefdk:current
+docker images
+docker pull sreeharshav/chefdk:v1
+docker network ls
+docker ps
+docker ps -a
+docker rm -f  a4714bb6474f b7293e5d13ea 9aae10877941 e39e1ea1e418
+docker ps -a
+docker ps -aq
+docker ps -a
+docker images
+cd /var/lib/docker
+docker images
+docker network ls
+docker network rm ansiblenw 
+docker network create --subnet 172.20.0.0/16 --gateway 172.20.0.254 jenkinsdocker
+docker run --name myjenkins -p 8080:8080 -p 50000:50000 -v /var/jenkins_home jenkins
+docker ps
+docker ps -a
+docker attach a55cdd3a568b
+docker start a55cdd3a568b
+docker inspect a55cdd3a568b
+docker attach a55cdd3a568b
+docker pull sreeharshav/dockerimage:v2
+docker exec -it myjenkins  /var/jenkins_home/secrets/initialAdminPassword
+docker start a55cdd3a568b
+docker exec -it myjenkins  /var/jenkins_home/secrets/initialAdminPassword
+docker exec -it myjenkins  cat /var/jenkins_home/secrets/initialAdminPassword
+docker ps
+docker images
+docker ps
+docker images
+docker run -it --name mydocker sreeharshav/dockerimage
+docker run -it --name mydocker sreeharshav/dockerimage:v2
+docker run -it --name mydocker1 sreeharshav/dockerimage:v2
+docker ps -a
+docker rm -f 76334d86b23e 93636996ea66
+docker rmi sreeharshav/dockerimage:v2 
+docker pull docker:latest
+docker rm -f myjenkins 
+docker ps
+docker ps -a
+wget -q -O - http://pkg.jenkins-ci.org/debian/jenkins-ci.org.key | sudo apt-key add -
+sudo sh -c 'echo deb http://pkg.jenkins-ci.org/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+sudo apt get update
+sudo apt-get update 
+sudo apt install jenkins
+sudo systemctl start jenkins
+sudo systemctl status jenkins
+sudo utf allow 8080
+sudo ufw allow OpenSSH
+sudo utw enable
+ipconfig
+ifconfig
+cat /var/lib/jenkins/secrets/initialAdminPassword
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+sudo systemctl start jenkins
+sudo systemctl status jenkins
+docker images
+docker run -it --name mydocker1 sreeharshav/dockerimage:v2
+docker run -it --name mydocker1 docker
+docker rm -f mydocker1 
+docker run -it --name mydocker1 docker
+docker rm -f mydocker1 
+docker ps
+docker run -it --name mydocker2 docker
+docker rm -f mydocker2
+docker attach mydocker1 
+docker run -it --name mydocker1 ansiblenode
+docker images
+docker run -it --name mydocker1 vinnuvikki/ansiblenode:1.0
+docker run -it --name mydocker1 vinnuvikki/ansiblenode:1.1
+docker rm -f mydocker1 
+docker run -it --name mydocker1 ubuntu
+docker rm -f mydocker1 
+docker run -it --name mydocker1 ubuntu
+docker attach mydocker
+docker attach mydocker1
+docker start mydocker1
+docker attach mydocker1
+docker inspect mydocker1
+ssh-copy-id ssh@172.17.0.2
+adduser jenkins
+sudo adduser jenkins
+su -jenkins
+su - jenkins
+su - ansible
+sudo usermod -a -G vinnu jenkins
+su - jenkins
+sudo visudo
+su - jenkins
+sudo -i
+su - jenkins
+sudo -i
+docker ps -a
+docker images
+docker run -it --name mydocker3 vinnuvikki/ansiblenode:1.1
+docker attach mydocker1 
+docker rm -f mydocker1
+docker attach mydocker3
+docker start mydocker3
+docker attach mydocker3
+docker stop  mydocker3
+docker run -dit --privileged --name mydocker vinnuvikki/ansiblenode:1.1
+docker start mydocker
+docker attach mydocker
+docker pull kalilinux/kali-rolling:latest
+docker pull mianasbat/centos-ssh-systemd:latest
+docker attach css1
+docker start css1
+ssh pos@localhost -p 2222 password is ol2432sn324231024113310
+docker ps
+docker ps -a
+docker attach 998d8cbfcefa
+docker start 998d8cbfcefa
+docker rm -f vinnu@christy:~$  docker run --privileged --name css1 -v /sys/fs/cgroup:/sys/fs/cgroup:ro -p 2222:22 -p 3306:3306 -p 8080:80 -d mianasbat/centos-ssh-systemd
+docker rm -f 998d8cbfcefa 006c3dd6f0b2 754ea914e723
+docker rm -f vinnu@christy:~$  docker run -dit --privileged --name css1 -v /sys/fs/cgroup:/sys/fs/cgroup:ro -p 2222:22 -p 3306:3306 -p 8080:80 -d mianasbat/centos-ssh-systemd
+docker rm -f vinnu@christy:~$  docker run -it --privileged --name css1 -v /sys/fs/cgroup:/sys/fs/cgroup:ro -p 2222:22 -p 3306:3306 -p 8080:80 -d mianasbat/centos-ssh-systemd
+docker rm -f vinnu@christy:~$  docker run --privileged --name css1 -v /sys/fs/cgroup:/sys/fs/cgroup:ro -p 2222:22 -p 3306:3306 -p 8080:80 -d mianasbat/centos-ssh-systemd
+docker images
+docker rmi mianasbat/centos-ssh-systemd docker
+docker rmi -f  mianasbat/centos-ssh-systemd docker
+docker images
+docker run -it --name jenks1 sreeharshav/jenkins-slavessh:v1
+docker ps -a
+docker rm -f 9d663493cd43 d33522d7aa4e
+docker pull sreeharshav/jenkins:v2
+docker pull sreeharshav/ubuntu16:withssh2.0_V2_puppetagent
+docker pull sreeharshav/pipelinetestprod:6
+docker images
+docker pull sreeharshav/slavetesting:3
+docker images
+docker pull systemede/docker-baleine:latest
+docker run -dit --name dock1 systemede/docker-baleine
+docker attach dock1
+docker start dock1
+docker attach dock1
+docker run -it --name dock2 systemede/docker-baleine
+docker attach dock2
+docker start dock2
+docker attach dock2
+docker ps
+docker ps -a
+docker exec -it cat ls
+docker exec -it dock2 "ls"
+docker rm -f dock1
+docker rm -f dock2
+docker rmi systemede/docker-baleine:latest 
+exit
+docker images
+docker run -it --name ansnode sreeharshav/centos7:withssh2.0_V1
+docker pull s2410232048/c7_dock:latest
+docker run -it --name docktest s2410232048/c7_dock:latest
+docker pull sreeharshav/dockerpushtesting:11
+docker run -it --name mydoc sreeharshav/dockerpushtesting:11
+docker rm -f mydoc 
+docker rmi sreeharshav/dockerpushtesting:11
+exit
+su - jenkins
+sudo -i
+chmod 400 Mytata.pem
+ssh -i "Mytata.pem" ec2-user@ec2-54-145-248-179.compute-1.amazonaws.com
+ssh -i "Mytata.pem" ec2-user@ec2-54-161-58-172.compute-1.amazonaws.com
+ssh -i "Mytata.pem" ec2-user@ec2-3-82-215-166.compute-1.amazonaws.com
+sudo service jenkins start
+usermod -a -G root jenkins
+sudo usermod -a -G root jenkins
+sudo usermod -a -G docker jenkins
+su - ansible
+su - jenkins
+sudo -i
+docker rm myjenk
+docker run --name jenkins -p 8080:8080 -v /var/jenkins_home sreeharshav/jenkins
+docker images
+docker run --name jenkins -p 8080:8080 -v /var/jenkins_home sreeharshav/jenkins:v2
+docker ps -a
+docker ps
+docker run --name myjenk -p 8080:8080 -p 50000:50000 sreeharshav/jenkins:v2
+netstat - pna | grep 8000
+docker rm$(docker ps -a)
+docker rm $(docker ps -a)
+docker ps -a
+docker ps -aq
+docker run --name myjenk -p 8080:8080 -p 50000:50000 sreeharshav/jenkins:v2
+docker ps -a
+docker rm -f myjenk 
+docker run --name myjenk -p 8081:8080 -p 50000:50000 sreeharshav/jenkins:v2
+docker start myjenk 
+docker inspect myjenk 
+docker run -it --name myjenkins -p 8080:8080 -p 50000:50000 -v /var/jenkins_home jenkins
+docker run -it --name myjenks -p 8082:8080 -p 50000:50000 -v /var/jenkins_home jenkins
+docker rm -f myjenks
+docker run -it --name myjenks -p 8083:8080 -p 50000:50000 -v /var/jenkins_home sreeharshav/jenkins
+docker run -it --name myjenks -p 8083:8080 -p 50000:50000 -v /var/jenkins_home sreeharshav/jenkins:v2
+docker exec -it myjenks "cat /var/jenkins_home/secrets/initialAdminPassword"
+docker inspect myjenks
+docker rm myjenkins 
+docker ps -a
+docker rm -f  myjenks
+docker images
+docker run -p 8080:8080 -p 50000:50000 jenkins
+docker ps -a
+docker rm -f jenkins
+docker rm -f 7e071eab7dac
+docker images
+uname -r
+pwd
+ls
+docker run --name myjenks -p 8080:8080 -p 50000:50000 -v /home/vinnu/Music:/var/jenkins_home jenkins
+docker rm -f $(docker ps -aq)
+docker run --name myjenks -p 8080:8080 -p 50000:50000 -v /home/vinnu/Music:/var/jenkins_home jenkins
+docker rm -f $(docker ps -aq)
+docker run --name myjenks -p 8080:8080 -p 50000:50000 -v /home/vinnu/Music:/var/jenkins_home jenkins:latest 
+docker rm -f $(docker ps -aq)
+lsof -i -P -n | grep 8080
+netstat -nlp | grep 8080
+sudo netstat -nlp | grep 8080
+docker run --name myjenks -p 8080 -p 50000 -v /home/vinnu/Music:/var/jenkins_home jenkins:latest 
+docker start myjenks 
+docker inspect myjenks 
+docker rm -f $(docker ps -aq)
+docker ps 
+docker ps -a
+docker run --name myjenks -p 8080 -p 50000 -v /home/vinnu/Music:/var/jenkins_home jenkins:latest
+docker rm -f $(docker ps -aq)
+docker run --name myjenks -p 9090:8080 -p 50000:50000 -v /home/vinnu/Music:/var/jenkins_home jenkins:latest 
+docker rm -f $(docker ps -aq)
+docker run --name myjenks -p 9090:8080 -p 50000:50000 -v /home/vinnu/Music/jenks:/var/jenkins_home jenkins:latest 
+docker rm -f $(docker ps -aq)
+docker run --name myjenks -p 9090:8080 -p 50000:50000 -v /home/vinnu/Music/jenks:/var/jenkins_home sreeharshav/jenkins:v2
+docker ps
+docker ps -a
+docker run -it  --name myjenks1 -p 9090:8080 -p 50000:50000 -v /home/vinnu/Music/jenks:/var/jenkins_home sreeharshav/jenkins:v2
+docker ps -a
+docker rm -f myjenks
+docker ps -a
+docker inspect 381f0510e55e
+docker rm -f myjenks1
+docker rmi sreeharshav/jenkins:v1
+docker rmi sreeharshav/jenkins:v2
+docker run -it  --name myjenks1 -p 9090:8080 -p 50000:50000 -v /home/vinnu/Music/jenks:/var/jenkins_home jenkins:latest 
+docker run --name myjenks1 -p 9090:8080 -p 50000:50000 -v /home/vinnu/Music/jenks:/var/jenkins_home jenkins:latest 
+docker rm -f myjenks1
+docker run --name myjenks1 -p 9090:8080 -p 50000:50000 -v /home/vinnu/Music/jenks:/var/jenkins_home jenkins:latest 
+docker rm -f myjenks1
+docker rmi jenkins:latest 
+docker pull jenkins/jenkins:latest
+docker run --name myjenks1 -p 9090:8080 -p 50000:50000 -v /home/vinnu/Music/jenks:/var/jenkins_home jenkins/jenkins:latest
+docker ps
+docker rm -f myjenks1
+docker ps
+docker exec -it myjenks2 "cat /var/jenkins_home/secrets/initialAdminPassword"
+docker exec -it myjenks2 "ls /var/jenkins_home/secrets/initialAdminPassword"
+docker attach myjenks2 
+docker run --name myjenks2 -p 9090:8080 -p 50000:50000 -v /home/vinnu/Music/jenks:/var/jenkins_home jenkins/jenkins:latest
+docker exec <container_name> cat /var/jenkins_home/secrets/initialAdminPassword
+docker exec myjenkins2 cat /var/jenkins_home/secrets/initialAdminPassword
+docker start myjenks2 
+docker exec myjenkins2 cat /var/jenkins_home/secrets/initialAdminPassword
+docker exec myjenks2 cat /var/jenkins_home/secrets/initialAdminPassword
+ifconfig
+docker attach myjenks2
+docker stop myjenks2
+exit
+docker version
+cat /etc/passwd
+su - jenkins
+service jenkins restart
+ipconfig
+docker -h 10.1.1.240:2375 run --rm -dit  -p 8000:80 sreeharshav/rollingupdate:v3
+sudo docker -h 10.1.1.240:2375 run --rm -dit  -p 8000:80 sreeharshav/rollingupdate:v3
+docker -H 10.1.1.240:2375 run --rm -dit  -p 8000:80 sreeharshav/rollingupdate:v3
+sudo -i
+ssh -i "Mytata.pem" ubuntu@ec2-18-207-161-29.compute-1.amazonaws.com
+chmod 400 Mytata.pem
+ssh -i "Mytata.pem" ubuntu@ec2-18-207-161-29.compute-1.amazonaws.com
+sudo su -
+Dockerfile
+vi Dockerfile
+rm Dockerfile 
+docker images
+docker pull centos/systemd:latest
+docker run -it --name dock1 centos/systemd
+maven --version
+maven version
+mvn -v
+java -version
+sudo cd /usr/local/src
+vi /root/.bash_profile
+sudo -i
+docker ps -a 
+docker start myjenks2 
+docker stop myjenks2 
+docker start dock1
+docker attach dock1 
+docker rm -f dock1 
+docker images
+docker run -it --name jenks sreeharshav/ubuntu16:withssh2.0_V2_puppetagent
+docker ps
+history
+docker ps 
+docker images
+docker rmi sreeharshav/ubuntu16:withssh2.0_V2_puppetagent 
+docker ps
+docker attach jenks
+docker rmi -f sreeharshav/ubuntu16:withssh2.0_V2_puppetagent 
+docker images
+docker rmi sreeharshav/pipelinetestprod:1
+docker rmi prodrigestivill/postgres-backup-local:latest 
+docker rmi s2410232048/c7_dock:latest 
+docker rmi centos/systemd:latest 
+docker rmi <none>:<none>
+docker rmi none:none
+docker rmi a5a5314e9480
+docker images
+docker ps -a
+docker rm -f jenks
+docker rmi a5a5314e9480
+docker ps -a
+docker ps 
+history
+docker run --name myjenks -p 9090:8080 -p 50000:50000 -v /home/vinnu/Music/jenks:/var/jenkins_home 
+docker ps 
+sudo visudo
+docker attach jenks1
+docker run -v /var/run/docker.sock:/var/run/docker.sock            -ti docker
+docker rm -f docker
+docker run -it --name jenks1 vinnuvikki/ansiblenode
+docker images
+docker run -it --name jenks1 vinnuvikki/ansiblenode:1.0
+docker run -it --name jenks1 vinnuvikki/ansiblenode:1.1
+docker inspect 1692886b5df1
+docker attach 1692886b5df1
+docker commit -m "JenksDockerMavenGit" -a "vinnu@gmail.com" 1692886b5df1 jenksdockmvngit:1.0
+docker tag jenksdockmvngit:1.0 vinnuvikki/jenksdockmvngit:1.0
+docker push vinnuvikki/jenksdockmvngit:1.0
+docker images
+docker ps
+docker ps -a
+docker rm -f myjenks2 
+docker rmi jenkinsdockmavengit
+docker rmi jenksdockmvngit:1.0 
+docker images
+docker rmi sreeharshav/centos7:withssh2.0_V1 
+apt get clean
+apt clean
+sudo apt clean
+sudo apt-get clean
+exit
+service jenkins restart
+cd /var/lib/jenkins/ls
+cd /var/lib/jenkins/
+ls
+cd workspace/
+ls
+cd MyFirstproj/
+
+
+unzip ngrok-stable-linux-amd64\(1\).zip 
+./ngrok authtoken 61VFUdC6BDmCRAQpVbL5D_5wXGxNskZt2oNPbgoYR95
+./ngrok help
+./ngrok http 8080
+sudo apt-get autoremove ngrok-server
+sudo apt-get autoremove ngrok
+ls
+rm ngrok
+rm ngrok-stable-linux-amd64
+service jenkins restart
+sudo service jenkins restart
+ping 192.168.1.2:8080
+ifconfig
+sudo -i
+ifconfig
+sudo systemctl restart jenkins
+sudo service iptables start
+chkconfig iptables on
+sudo vi /etc/rc.local
+cd /etc/
+ls
+cat rpc 
+docker ps
+docker ps -a
+docker start jenks1 
+docker inspect jenks1 
+docker attach jenks1 
+ps aux | grep -i jenkins
+cd /home/vinnu/Downloads/
+unzip ngrok-stable-linux-amd64.zip
+./ngrok authtoken 61VFUdC6BDmCRAQpVbL5D_5wXGxNskZt2oNPbgoYR95
+./ngrok help
+./ngrok http 80
+./ngrok http 8080
+ngrok http 8080
+./ngrok http 8080
+./ngrok http 80
+./ngrok http 8080
+exit
+git clone https://github.com/bhanuprakash678910/mavenproj.git
+ls
+git push mavenproj/
+cd mavenproj/
+ls
+git init
+ls
+git push
+cd /home/vinnu/Downloads/
+./ngrok http 8080
+su - jenkins
+sudo -i
+service jenkins start
+sudo -i
+cd /home/vinnu/Downloads/
+./ngrok http 8080
